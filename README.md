@@ -2,15 +2,18 @@
 
 
 Análise de requisitos
+
 Uma empresa de gerenciamento de resíduos sólidos coleta e recicla resíduos em algumas cidades do Brasil. Essa empresa opera centenas de caminhões para coletar e transportar os resíduos gerados. A empresa gostaria de criar um data warehouse  e a partir dele poder gerar relatórios, visualizações e portanto analisar informações relacionadas a operação do negócio.
 
 Objetivos
+
 1. Projetar e implementar um Data Warehouse;
 2. Carregar dados no Data Warehouse;
 3. Escrever querys de agregação e views;
 4. Criar dashboard;
 
 O Projeto
+
 O objetivo desse projeto é a criação de um sistema de armazenamento de dados modelado para armazenar, consultar e processar grandes volumes de dados.
 Tomando como referência uma base de dados fornecida pela empresa como exemplo dos dados que deseja manipular.
 O projeto é otimizado para suportar consultas analíticas e relatórios, permitindo que a organização analise seus dados para tomar decisões informadas.
