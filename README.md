@@ -21,6 +21,7 @@ O projeto é otimizado para suportar consultas analíticas e relatórios, permit
 Step1 – Analisar base de dados
 
 Começamos analisando o dataset fornecido como modelo para o DW pretendido e identificando as colunas para as várias tabelas de dimensão e fato no esquema.
+
 ![image](https://github.com/Herbet-Meneses/solidwaste_datawarehouse/assets/142064420/077c4845-ea68-427f-9558-9edffe8eabd8)
 
 Step 2 – Definir modelo
@@ -30,6 +31,7 @@ A solução proposta não necessita de complexidade nem normalização além do 
 Step3 - Definir tabelas fato e dimensão
 
 A empresa está buscando uma granularidade diária, o que significa que eles gostariam de ter a capacidade de gerar relatórios com base em anos, meses, dias e dias da semana.
+
 ![Screenshot 2023-10-30 093745](https://github.com/Herbet-Meneses/solidwaste_datawarehouse/assets/142064420/9ed73cf5-9d87-4f59-93a8-6071dd21bf26)
 
 Step 4 – Iniciar RDBMS(PostgresSQL) e Criar Database
@@ -57,6 +59,7 @@ Processo ETL pode ser realizado de diversas maneiras, poderia ser utilizando có
 Step 8 – Popular DW
 
 Via PgAdmin Importar dados transformados e checar carregamento no DW
+
 ![9-DimDate](https://github.com/Herbet-Meneses/solidwaste_datawarehouse/assets/142064420/2f86cd76-af06-4621-b5e4-df88a5d10634)
 ![10-DimTruck](https://github.com/Herbet-Meneses/solidwaste_datawarehouse/assets/142064420/314059a4-ddd3-44e4-b87a-59451e46b752)
 ![11-DimStation](https://github.com/Herbet-Meneses/solidwaste_datawarehouse/assets/142064420/565c4e39-085d-45c2-911e-953e79322bf7)
